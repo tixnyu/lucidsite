@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Lucid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="./Images/logo-beige.svg" alt="Lucid Logo" class="logo-nav">
+                <span class="logo-text">lucid</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="information.html">Information</a></li>
+                <li><a href="sound-experience.html">Sound Experience</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Page Content -->
+    <section class="contact-page">
+        <div class="section-content">
+            <h1 class="contact-title">want to reach out?</h1>
+            <p class="contact-subtitle">
+                <span class="underline">contact us!</span>
+            </p>
+            
+            <div class="contact-form-container">
+                <div class="form-header">
+                    <div class="browser-dots">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <div class="form-title">send us an email!</div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="inquiry" name="inquiry" placeholder="Inquiry:" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send it!</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+        <div class="footer-info">
+            <span>©2025 LUCID</span>
+            <div class="social-icons">
+                <img src="./Images/Instagram.svg" alt="Instagram" class="social-icon">
+                <img src="./Images/facebook.svg" alt="Facebook" class="social-icon">
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
